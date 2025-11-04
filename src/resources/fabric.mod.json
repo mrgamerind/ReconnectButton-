@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "reconnect_button",
+  "version": "1.0.0",
+  "name": "Lunar Reconnect",
+  "description": "Adds a Reconnect button like Lunar Client on the disconnect screen.",
+  "entrypoints": { "client": [] },
+  "mixins": ["reconnect_button.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
