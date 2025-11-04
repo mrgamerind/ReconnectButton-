@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.mrgamerind.reconnect",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ReconnectButtonMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
